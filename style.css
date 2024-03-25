@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Alinhar os elementos verticalmente */
+    justify-content: space-between;
+    background-color: rgb(43, 36, 36);
+}
+
+header .imgLogo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header .navbar {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header .navbar nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    margin: 0 10px;
+}
+
+
+header .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+header .button button{
+    width: 70px;
+    height: 40px;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+main {
+    display: block;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-wrap: wrap;
+    
+}
+
+.carrosel {
+    max-height: 80%; /* Altura máxima de 80% da altura do main */
+    width: 100%;
+    flex-basis: 100;
+}
+
+.img-carrosel {
+    width: 100%;
+    height: 90vh;
+}
+
+.content {
+    margin: 90px;
+}
